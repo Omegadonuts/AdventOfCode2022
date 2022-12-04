@@ -1,0 +1,23 @@
+
+# Online Python - IDE, Editor, Compiler, Interpreter
+
+example='''2-4,6-8
+2-3,4-5
+5-7,7-9
+2-8,3-7
+6-6,4-6
+2-6,4-8'''
+
+counter =0
+splitlist = example.split('\n')
+for pair in splitlist:
+    lb1=int(pair[0])
+    hb1=int(pair[2])
+    lb2=int(pair[4])
+    hb2=int(pair[6])
+    if lb1<=lb2 and hb1>=hb2:
+        counter +=1
+    if lb2<=lb1 and hb2>=hb1:
+        counter +=1
+
+print('assignment pairs where one range fully contains the other range: ' + counter)
