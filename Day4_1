@@ -15,6 +15,7 @@ for pair in splitlist:
     hb1=int(pair[2])
     lb2=int(pair[4])
     hb2=int(pair[6])
+#für zweistellige Ranges müssen die Zahlen noch anders extrahiert werden 
     if lb1<=lb2 and hb1>=hb2:
         counter +=1
     if lb2<=lb1 and hb2>=hb1:
