@@ -1,4 +1,4 @@
-inputPath = r"C:\Users\js18511\Downloads\Day2.txt"
+inputPath = r"C:\Users\jan\Downloads\Day2.txt"
 
 example = '''A Y
 B X
