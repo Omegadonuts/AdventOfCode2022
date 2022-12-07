@@ -34,9 +34,7 @@ splitstacks.pop(-1)
 for n in range(columns):
     for row in splitstacks:
         columnslist[n] = columnslist[n] + row[n]
-        columnslist[n] = columnslist[n].replace('x','')
-        #columnslistp2[n] = columnslistp2[n] + row[n]
-        #columnslistp2[n] = columnslistp2[n].replace('x','')        
+        columnslist[n] = columnslist[n].replace('x','')     
 columnslistp2.extend(columnslist)
 
 for task in tasks:
