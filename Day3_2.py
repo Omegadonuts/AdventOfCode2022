@@ -7,7 +7,7 @@ wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn
 ttgJtRGJQctTZtZT
 CrZsJsPPZsGzwwsLwLmpwMDw'''
 
-Inputpath = r"C:\Users\js18511\Downloads\Day3.txt"
+Inputpath = r"C:\Users\jan\Downloads\Day3.txt"
 
 def readFile(path):
     File = open(str(path))
